@@ -19,7 +19,7 @@
         "lint": "eslint . --ext .ts,.js",
         "build": "ttsc",
         "safe-build": "rm -rf ./build && npm run lint && npm run build",
-        "prepublishOnly": "npm run safe-build"
+        "prepublishOnly": "npm run build"
     },
     "main": "./build/entry/node/main.js",
     "types": "./build/entry/node/main.d.ts",

@@ -1,0 +1,1 @@
+{"version":3,"file":"CTraderSocketParameters.js","sourceRoot":"","sources":["../../../../src/core/sockets/CTraderSocketParameters.ts"],"names":[],"mappings":"","sourcesContent":["export type CTraderSocketParameters = {\r\n    host: string;\r\n    port: number;\r\n};\r\n"]}
